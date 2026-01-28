@@ -1,6 +1,6 @@
 {
 	"name": "@arasaka-cinema/common",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Core shared components for arasaka-cinema microservice ecosystem",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/arasaka-cinema/core"
+		"url": "https://github.com/arasaka-cinema/common"
 	},
 	"publishConfig": {
 		"access": "public"
