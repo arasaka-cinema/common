@@ -1,23 +1,30 @@
 {
-  "name": "@arasaka-cinema/common",
-  "version": "1.0.0",
-  "description": "Core shared components for arasaka-cinema microservice ecosystem",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-	  "format": "prettier --write \"src/**/*.ts\""
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "devDependencies": {
-    "@arasaka-cinema/core": "^1.0.4",
-    "@types/node": "^25.0.10",
-    "prettier": "^3.8.1",
-    "typescript": "^5.9.3"
-  }
+	"name": "@arasaka-cinema/common",
+	"version": "1.0.1",
+	"description": "Core shared components for arasaka-cinema microservice ecosystem",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json",
+		"format": "prettier --write \"lib/**/*.ts\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/arasaka-cinema/core"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@arasaka-cinema/core": "^1.0.4",
+		"@types/node": "^25.0.10",
+		"prettier": "^3.8.1",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^6.0.2"
+	}
 }
